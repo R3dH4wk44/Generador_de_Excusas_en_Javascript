@@ -20,7 +20,6 @@ window.onload = function() {
   ];
 
   function generarExcusa() {
-    console.log(Math.floor(Math.random() * 4));
     let excusa =
       who[Math.floor(Math.random() * 4)] +
       " " +

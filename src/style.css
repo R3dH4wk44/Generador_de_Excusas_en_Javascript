@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  width: 100%;
+}
+.center {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#container {
+  margin-top: 5%;
+}
+
+#generar {
+  padding: 1.1em;
+  border-radius: 10rem;
+  color: rgb(255, 255, 255);
+  background-color: #0a91ff;
+  border-color: #0a91ff;
+  transition-duration: 0.4s;
+}
+
+#generar:hover {
+  background-color: #a3daff;
+  border-color: #a3daff;
+  color: black;
+}
